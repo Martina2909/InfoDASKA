@@ -1,2 +1,2 @@
 # InfoDASKA
-Mrežno mjesto osmišljeno 
+Mrežno mjesto osmišljeno za studentsku konferenciju InfoDASKA!
