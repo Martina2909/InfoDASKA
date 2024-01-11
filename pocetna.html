@@ -9,20 +9,9 @@
     <script src="fotogalerija/fotorama.js"></script>
 <link rel="stylesheet" href="fotogalerija/fotorama.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script>
-  $(document).ready(function() {
-      $('.fotorama').fotorama({
-          width: '900px',
-          ratio: '700/467',
-          maxwidth: '100%',
-          transition: 'dissolve', 
-          autoplay: 3000 
-      });
-  });
-</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <a id="top"></a>
 
     <nav>
       <div class="logo">
@@ -59,6 +48,7 @@
 </section>
 <div>
     <div>
+
 <div id="tekst_1">
     <p>
        <b>InfoDASKA</b> studentska je konferencija koja svoj početak bilježi 2008. 
@@ -68,18 +58,15 @@
         na konferenciji, studenti, ali i profesori te drugi posjetitelji, imaju mogućnost razmjenjivati vlastita iskustva kroz 
         izlaganja, radionice, ali i druženja u nešto ležernijem okruženju.
     </p>
+</div>
+</div>
 
-    
-</div>
-</div>
+
 <hr>
 <div class="teme"> 
 
 <h2 id="tema">Tema konferencije</h2> 
-
-
     <p>Ovogodišnja je glavna tema konferencije: <b>Umjetna inteligencija - izazovi i mogućnosti</b>
-      
       <br>
       <u>Podteme konferencije</u> vezane su uz sljedeće naslove: <br> 
          <ul> 
@@ -100,7 +87,6 @@
   <hr>
 
   <div class="mogucnost_sudjelovanja">
-
   <h2 id="mogucnost_sudjelovanja">Mogućnosti sudjelovanja</h2>
 </div>
 <hr>
@@ -173,12 +159,17 @@ Bolt - linkovi za instaliranje aplikacije: <br>
   
   </div>
 
-
-  <a id="top" href="#top">Povratak na vrh</a>
+  <a id="top" href="#" onclick="scrollToTop()">
+    <div class="scroll-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </a>
+  
     <footer>
         <p>&copy; 2023 InfoDASKA Konferencija</p>
     </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
