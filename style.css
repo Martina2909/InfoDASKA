@@ -43,9 +43,8 @@ nav {
 }
 
 .logo img {
-    max-height: 40px;
+    max-height: 50px;
 }
-
 nav a {
     position: relative;
     color: white;
