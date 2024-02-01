@@ -10,66 +10,58 @@
     <script src="fotogalerija/fotorama.js"></script>
 <link rel="stylesheet" href="fotogalerija/fotorama.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="page-container">
-  <div class="grid-container">
     <div class="grid-x">
       <div class="cell large-12 small-12">
 
-    <nav>
-      <div class="logo">
-        <img src="fotogalerija/fotografije/logo1.png" alt="Logo">
-      </div>
-      <a href="index.html" >Početna</a>
-      <a href="prijave.html">Prijave</a>
-      <a href="konferencija.html">Konferencija</a>
-      <a href="#" class="aktivna">Sponzori</a>
-  </nav>
+        <nav>
+          <div class="logo">
+            <img src="fotogalerija/fotografije/logo.png" alt="Logo">
+          </div>
+          <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <div class="dropdown">
+            <a href="index.html">Početna</a>
+            <a href="prijave.html">Prijave</a>
+            <a href="konferencija.html">Konferencija</a>
+            <a class="trenutna" href="sponzori.html">Sponzori</a>
+          </div>
+        </nav>
    
   
+        <div class="grid-container">
 
-<section id="sekcija_1">
-   <div class="fotorama" data-width="900px" data-ratio="700/467" data-max-width="100%">
-    <img src="fotogalerija/fotografije/ffos.jpg">
-    <img src="fotogalerija/fotografije/ffos2.jpg">
-    <img src="fotogalerija/fotografije/ffos3.jpg">
-    <img src="fotogalerija/fotografije/ffos4.jpg">
-    <img src="fotogalerija/fotografije/osijek.jpg">
-    </div>
-</section>
-   
-
-
-
-
-<hr>
 
 <div class="sponzori">
 
-    <h2 id="sponzori">Sponzori</h2>
-  
+   <h2 id="sponzori">Sponzori</h2>
+ 
 </div>
 
 
-  <a id="top" href="#" onclick="scrollToTop()">
-    <div class="scroll-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
-  </a>
-  
+ <a id="top" href="#" onclick="scrollToTop()">
+   <div class="scroll-to-top">
+     <i class="fa fa-arrow-up"></i>
+   </div>
+ </a>
+ 
 </div>
 </div>
 </div>
 
-  <footer>
-        <p>&copy; 2023 InfoDASKA Konferencija</p>
-       
-    
+ 
+</div>
+</div>
+<footer
+<p>&copy; 2023 InfoDASKA Konferencija ( 
+  <a href = "mailto:  infodaska2024@gmail.com"><i style="font-size:20px" class="fa">&#xf0e0;</i> </a>)</p>
+
 </footer>
-</div>
-
   <script src="script.js"></script>
 
 </body>
